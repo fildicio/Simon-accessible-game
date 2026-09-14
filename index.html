@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="level-title" aria-live="polite">Press A to Start</h1>
+  <div id="sequence-status" aria-live="polite" role="status" class="sr-only"></div>
+  <div class="container">
+    <div class="grid__container">
+
+      <button type="button" id="green" class="btn green" aria-label="green"></button>
+
+      <button type="button" id="red" class="btn red" aria-label="red"></button>
+
+      <button type="button" id="yellow" class="btn yellow" aria-label="yellow"></button>
+
+      <button type="button" id="blue" class="btn blue" aria-label="blue"></button>
+
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+  <script src="game.js"></script>
+
+</body>
+
+</html>
